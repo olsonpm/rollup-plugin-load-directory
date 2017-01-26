@@ -1,0 +1,1 @@
+Could not resolve './has-index/' from test/data/depend-on-has-index.js

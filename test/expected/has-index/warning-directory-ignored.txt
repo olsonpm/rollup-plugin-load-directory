@@ -1,0 +1,6 @@
+Warning: rollup-plugin-directory-loader found an 'index.js' file residing in the following imported directory:
+./has-index/
+
+This plugin will ignore the directory assuming the index.js file was intended.  To remove this warning, please remove the trailing '/' in your import statement or remove the index.js file (depending on your needs).  This plugin only resolves  imports with the trailing '/' e.g.
+import something from './path/to/something/'; // plugin resolves this
+import something from './path/to/something';  // ignores this
